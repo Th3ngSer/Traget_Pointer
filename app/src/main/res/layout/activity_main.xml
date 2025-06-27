@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#EEEEEE">
+
+
+    <!-- Movable Button -->
+
+    <!-- Position TextView -->
+    <TextView
+        android:id="@+id/positionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        />
+<!--        android:text="X: 0, Y: 0"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textColor="#000" />-->
+
+    <view
+        android:id="@+id/boundaryView"
+        class="android.widget.TextView"
+        android:layout_width="605dp"
+        android:layout_height="385dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/cardview_dark_background" />
+<!--        android:layout_width="300dp"  &lt;!&ndash; Example: 15 units wide &ndash;&gt;-->
+<!--        android:layout_height="160dp" &lt;!&ndash; 8 units tall (15:8 ratio) &ndash;&gt;-->
+<!--        android:background="@drawable/boundary_border" />-->
+
+
+
+    <!-- res/layout/activity_main.xml -->
+
+
+
+
+
+</FrameLayout>
